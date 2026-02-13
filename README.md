@@ -7,12 +7,14 @@
 ## 1. Instancia de Base de Datos
 * **Enlace a la instancia:** [Prisma Studio - Base de Datos](https://console.prisma.io/cmliquj9500nlyhd2q763dvot/cmlirulmt006y4tfllveikoiy/cmlirulmt006w4tfl2obrd8rw/studio#table=students&schema=public&view=table?)
 
-* **Configuración de Base de Datos:**
-![Configuración de Base de Datos en Prisma.io](01-prisma-bd-config.png)
+* **Configuración de Base de Datos en Prisma.io:**
+![Configuración Base de Datos - URL y Usuario (sin contraseña)](01-prisma-bd-config.png)
 
-* **Configuración en Prisma.io:**
-    postgres://f4a750c27d9e832c7c2432a4f3e8c4077aa13bf7320411518709ea95130519b6:@db.prisma.io:5432/postgres?sslmode=require
-    *(Nota: Asegúrate de que se vea la URL y el host, ocultando la contraseña)*
+* **Cadena de Conexión:**
+```
+postgresql://usuario:****@db.prisma.io:5432/postgres?sslmode=require
+```
+*(URL y usuario visibles, contraseña oculta por seguridad)*
 
 ---
 
@@ -31,6 +33,7 @@
 ![GET All Request](05-api-getall-request.png)
 ![GET All Response](06-api-getall-response.png)
 ### [GET] Obtener por ID
+![GET by ID Request](07-api-getbyid-request.png)
 ![GET by ID Response](07-api-getbyid-response.png)
 
 ### [GET] Obtener por Email
