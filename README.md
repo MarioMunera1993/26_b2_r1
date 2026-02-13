@@ -5,8 +5,10 @@
 ---
 
 ## 1. Instancia de Base de Datos
-* **Enlace a la instancia:** 
-![alt text](image.png)
+* **Enlace a la instancia:** [Prisma Studio - Base de Datos](https://console.prisma.io/cmliquj9500nlyhd2q763dvot/cmlirulmt006y4tfllveikoiy/cmlirulmt006w4tfl2obrd8rw/studio#table=students&schema=public&view=table?)
+
+* **Configuración de Base de Datos:**
+![Configuración de Base de Datos en Prisma.io](01-prisma-bd-config.png)
 
 * **Configuración en Prisma.io:**
     postgres://f4a750c27d9e832c7c2432a4f3e8c4077aa13bf7320411518709ea95130519b6:@db.prisma.io:5432/postgres?sslmode=require
@@ -15,7 +17,7 @@
 ---
 
 ## 2. Conexión desde Spring Boot
-![alt text](image-1.png)
+![Log de Conexión Exitosa en Spring Boot](02-spring-boot-connection-log.png)
 
 ---
 
@@ -23,27 +25,27 @@
 
 ### [POST] Crear Registro
 *Captura de la solicitud (Request) y la respuesta (Response) en Postman/Insomnia:*
-![alt text](image-2.png)
-![alt text](image-3.png)
+![POST Request](03-api-post-request.png)
+![POST Response](04-api-post-response.png)
 ### [GET] Obtener Todos (All)
-![alt text](image-4.png)
-![alt text](image-5.png)
+![GET All Request](05-api-getall-request.png)
+![GET All Response](06-api-getall-response.png)
 ### [GET] Obtener por ID
-![alt text](image-6.png)
+![GET by ID Response](07-api-getbyid-response.png)
 
 ### [GET] Obtener por Email
-![alt text](image-7.png)
-![alt text](image-8.png)
+![GET by Email Request](08-api-getbyemail-request.png)
+![GET by Email Response](09-api-getbyemail-response.png)
 ### [PUT] Actualizar Registro
-![alt text](image-9.png)
-![alt text](image-10.png)
+![PUT Request](10-api-put-request.png)
+![PUT Response](11-api-put-response.png)
 ### [DELETE] Eliminar Registro
-![alt text](image-11.png)
-![alt text](image-12.png)
+![DELETE Request](12-api-delete-request.png)
+![DELETE Response](13-api-delete-response.png)
 ---
 
 ## 4. Pruebas Internas del Proyecto
-![alt text](image-13.png)
+![Resultados de Pruebas Internas](14-internal-tests-results.png)
 
 > **Estado final:** Todas las pruebas pasaron exitosamente.
 
