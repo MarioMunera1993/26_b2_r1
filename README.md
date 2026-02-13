@@ -9,7 +9,7 @@
 ![alt text](image.png)
 
 * **Configuración en Prisma.io:**
-    postgres://f4a750c27d9e832c7c2432a4f3e8c4077aa13bf7320411518709ea95130519b6:sk_1p06xg@db.prisma.io:5432/postgres?sslmode=require
+    postgres://f4a750c27d9e832c7c2432a4f3e8c4077aa13bf7320411518709ea95130519b6:@db.prisma.io:5432/postgres?sslmode=require
     *(Nota: Asegúrate de que se vea la URL y el host, ocultando la contraseña)*
 
 ---
